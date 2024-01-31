@@ -1,9 +1,55 @@
+<!DOCTYPE html>
 <html>
+<head>
 
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  max-width: 400px;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.header {
+   display: flex;
+   align-items: center; 
+}
+
+.logo {
+   width:50px; 
+   height:auto; 
+   margin-right:10px; 
+}
+
+.tags {
+   color:#ccc; 
+}
+
+.card:hover {
+  transform: rotate(20deg); /* Rotate on hover */
+}
+</style>
+</head>
 <body>
-  <h1>Mr. Nolan</h1>
-  <p>Welcome to my website! A massive udpate is coming soon, I promise...</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
 
+<div class="card">
+    <div class="header">
+        <img src="logo.png" alt="videre logo" class="logo"/>
+        <p>videre</p>
+        <span>empowering creator economy</span>
+    </div>
+    <h2>Videre 😯 😯</h2>
+    <p>Videre is a TikTok-style video-sharing platform that enables advertisers to send crypto to creators by leveraging token-bound accounts (ERC-6551)</p>
+    <div class="tags">
+        #TypeScript #JavaScript #CSS #React #Next.js #Tailwind #Ethers #Polygon Mumbai 
+        #Solidity Smart Contract #Hardhat
+    </div>
+</div>
+
+</body>
 </html>
