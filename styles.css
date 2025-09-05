@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+.greeting {
+    background-color: #f0f8ff;
+    border: 2px solid #add8e6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
