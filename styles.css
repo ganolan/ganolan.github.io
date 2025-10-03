@@ -1,3 +1,33 @@
+body {
+        /* Deeper dark vaporwave gradient */
+        background: linear-gradient(135deg, #18122B 0%, #232946 40%, #5f4b8b 70%, #a72693 100%);
+        min-height: 100vh;
+        font-family: 'Inter', 'Montserrat', Arial, sans-serif;
+}
+
+.dot-bg {
+    background-image: radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+    font-size: 2rem;
+    background-color: rgba(44, 62, 80, 0.85);
+    color: #fff;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.12);
+    border: 2px solid transparent;
+}
+.nav-link:hover, .nav-link:focus {
+    background: linear-gradient(90deg, #f02fc2 0%, #a72693 100%);
+    color: #232946;
+    border-color: #f02fc2;
+    text-shadow: 0 2px 8px #fff2, 0 0px 2px #f02fc2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+}
 h1 {
     color: blue;
     text-align: center;

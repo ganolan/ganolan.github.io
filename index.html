@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Hey class!</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile - Vaporwave</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dot-bg flex flex-col min-h-screen">
+        <!-- Navigation Bar -->
+        <nav class="flex justify-center mt-12 mb-16">
+            <ul class="flex gap-8">
+                <li>
+                    <a href="#" class="nav-link px-12 py-6 rounded-md shadow-lg transition-colors duration-300">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link px-12 py-6 rounded-md shadow-lg transition-colors duration-300">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link px-12 py-6 rounded-md shadow-lg transition-colors duration-300">About Me</a>
+                </li>
+            </ul>
+        </nav>
+
+    <!-- Main Content -->
+    <main class="flex flex-col md:flex-row items-center justify-center flex-1 gap-12 px-4">
+            <div class="text-center md:text-left">
+                <h1 class="text-5xl md:text-6xl font-bold font-[Montserrat] text-white mb-4">Text about me</h1>
+                <!-- Add more about you here if desired -->
+            </div>
+        <!-- Avatar Illustration -->
+        <div class="flex-shrink-0">
+            <svg width="180" height="220" viewBox="0 0 180 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Body -->
+                <rect x="30" y="90" width="120" height="110" rx="30" fill="#5ee6ff"/>
+                <!-- Head -->
+                <ellipse cx="90" cy="70" rx="50" ry="50" fill="#fff" stroke="#222" stroke-width="3"/>
+                <!-- Hair (hand-drawn style) -->
+                <path d="M60 40 Q55 20 80 30 Q70 10 100 25 Q110 10 120 35 Q130 20 125 50" stroke="#222" stroke-width="4" fill="none"/>
+                <!-- Mustache -->
+                <ellipse cx="90" cy="95" rx="22" ry="8" fill="#222"/>
+                <!-- Smile -->
+                <path d="M75 110 Q90 120 105 110" stroke="#222" stroke-width="3" fill="none"/>
+                <!-- Neck -->
+                <rect x="75" y="85" width="30" height="20" rx="10" fill="#5ee6ff"/>
+            </svg>
+        </div>
+    </main>
+</body>
+</html>
     </head>
     <body>
         <div class="greeting">
